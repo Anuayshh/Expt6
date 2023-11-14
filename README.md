@@ -1,4 +1,7 @@
 # Ex.No:6 Design an android application Send SMS using Intent.
+
+## DATE : 19/09/2023
+
 ## AIM:
 To create and design an android application Send SMS using Intent using Android Studio.
 
@@ -6,30 +9,36 @@ To create and design an android application Send SMS using Intent using Android 
 Android Studio(Latest Version)
 
 ## ALGORITHM:
-Step 1: Open Android Stdio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as smsintent and click Next.
+### Step 1:
+Open Android Stdio and then click on File -> New -> New project.
 
-Step 3: Then select the Minimum SDK as shown below and click Next.
+### Step 2:
+Then type the Application name as smsintent and click Next.
 
-Step 4: Then select the Empty Activity and click Next. Finally click Finish.
+### Step 3:
+Then select the Minimum SDK as shown below and click Next.
 
-Step 5: Design layout in activity_main.xml.
+### Step 4:
+Then select the Empty Activity and click Next. Finally click Finish.
 
-Step 6: Send SMS and Display details give in MainActivity file.
+### Step 5:
+Design layout in activity_main.xml.
 
-Step 7: Save and run the application.
+### Step 6:
+Send SMS and Display details give in MainActivity file.
+
+### Step 7: 
+Save and run the application.
 
 ## PROGRAM:
-~~~
-/*
+```
 Program to create and design an android application Send SMS using Intent.
 Developed by: V R Anu Ayshwarya
 Registeration Number : 212221040016
-*/
-~~~
+```
 ## Android Manifest File:
-~~~
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools">
@@ -57,9 +66,9 @@ xmlns:tools="http://schemas.android.com/tools">
 </application>
 
 </manifest>
-~~~
+```
 ## Activity_xml File:
-~~~
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -129,9 +138,9 @@ tools:context=".MainActivity">
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/number" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-~~~
+```
 ## MainActivity.java File:
-~~~
+```
 package com.example.smsintent;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -187,7 +196,7 @@ private void sendSMS(){
     }
 }
 }
-~~~
+```
 ## OUTPUT:
 
 ![Screenshot 2023-09-12 103600](https://github.com/Anuayshh/Expt6/assets/127651217/c2da8e21-240a-49bc-8857-89e9442dca00)
@@ -203,5 +212,5 @@ private void sendSMS(){
 ![image](https://github.com/Anuayshh/Expt6/assets/127651217/3311bcd9-cf61-43bc-9625-010ef2a7ce66)
 
 
-## RESULT
+## RESULT:
 Thus a Simple Android Application create and design an android application Send SMS using Intent using Android Studio is developed and executed successfully.
